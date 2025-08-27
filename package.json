@@ -1,0 +1,44 @@
+{
+  "name": "kintsugi",
+  "displayName": "Kintsugi",
+  "description": "A sophisticated dark theme for the discerning developer, inspired by the Japanese art of Kintsugi.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "ahmedhatem",
+  "author": {
+    "name": "Ahmed Hatem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahatem/vscode-kintsugi.git"
+  },
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "kintsugi",
+    "minimal",
+    "minimalist",
+    "clean",
+    "focus",
+    "warm",
+    "gold",
+    "japanese",
+    "zen"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kintsugi Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kintsugi-Dark-color-theme.json"
+      }
+    ]
+  }
+}
