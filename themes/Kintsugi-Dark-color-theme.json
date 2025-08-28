@@ -58,12 +58,12 @@
     "editor.wordHighlightStrongBorder": "#5a687540",
     "editor.wordHighlightTextBackground": "#6c7a8a20",
     "editor.wordHighlightTextBorder": "#5a687520",
-    "editorBracketHighlight.foreground1": "#47454190",
-    "editorBracketHighlight.foreground2": "#47454170",
-    "editorBracketHighlight.foreground3": "#47454150",
-    "editorBracketHighlight.foreground4": "#47454190",
-    "editorBracketHighlight.foreground5": "#47454170",
-    "editorBracketHighlight.foreground6": "#47454150",
+    "editorBracketHighlight.foreground1": "#868165E6",
+    "editorBracketHighlight.foreground2": "#868165B3",
+    "editorBracketHighlight.foreground3": "#86816580",
+    "editorBracketHighlight.foreground4": "#868165E6",
+    "editorBracketHighlight.foreground5": "#868165B3",
+    "editorBracketHighlight.foreground6": "#86816580",
     "editorBracketHighlight.unexpectedBracket.foreground": "#b38f8f",
     "editorBracketMatch.background": "#6c7a8a50",
     "editorBracketMatch.border": "#2a2a28",
@@ -472,6 +472,13 @@
       "scope": ["markup.block.raw", "markup.inline.raw"],
       "settings": {
         "foreground": "#939799"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation, delimiter, bracket, brace, paren, delimiter.tag, punctuation.tag, tag.html, tag.xml, meta.property-value punctuation.separator.key-value,punctuation.definition.metadata.md, string.link.md, meta.brace",
+      "settings": {
+        "foreground": "#868165"
       }
     }
   ],
