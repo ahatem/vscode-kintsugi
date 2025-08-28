@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/icon-large.png" width="256" alt="Kintsugi Icon">
+  <img src="./assets/icon-large-rounded.png" width="256" alt="Kintsugi Icon">
   <h1>Kintsugi</h1>
   <p>A sophisticated dark theme for the discerning developer, lovingly inspired by Japanese philosophy and minimalist aesthetics.</p>
 </div>

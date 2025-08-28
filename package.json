@@ -2,7 +2,7 @@
   "name": "kintsugi",
   "displayName": "Kintsugi",
   "description": "A sophisticated dark theme for the discerning developer, inspired by the Japanese art of Kintsugi.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "publisher": "ahmedhatem",
   "author": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/ahatem/vscode-kintsugi.git"
   },
-  "icon": "assets/icon.png",
+  "icon": "assets/icon-rounded.png",
   "engines": {
     "vscode": "^1.85.0"
   },
