@@ -243,4 +243,4 @@ Kintsugi was built with inspiration from exceptional themes:
 
 ---
 
-**[View Changelog](./Changelog.md)**
+**[View Changelog](./CHANGELOG.md)**
