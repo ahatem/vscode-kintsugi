@@ -84,7 +84,7 @@ Next, paste these settings into your `settings.json` (`Code > Preferences > Sett
   "workbench.colorTheme": "Kintsugi Dark",
   "workbench.iconTheme": "quill-icons",
   "workbench.productIconTheme": "jetbrains-product-icon-theme",
-  "editor.fontFamily": "Hasklig", // Or Iosevka Expanded (both in screenshots)
+  "editor.fontFamily": "Hasklig", // Or Consolas (both in screenshots)
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.fontWeight": "500",
@@ -147,6 +147,7 @@ Add the following to your `settings.json`:
 <details>
   <summary><strong>Alternative Font Recommendations</strong></summary>
 
+- **[Consolas](https://github.com/somq/consolas-ligaturized)**: A classic monospaced font with ligatures for enhanced coding aesthetics.
 - **[Iosevka](https://typeof.net/Iosevka/)**: A highly customizable, monospaced font with a sleek, modern design and extensive ligature support.
 - **[M PLUS Code Latin Expanded](https://mplusfonts.github.io/)**: A clean, modern, monospaced font with excellent legibility.
 - **[Lilex](https://github.com/mishamyrt/Lilex)**: An extended IBM Plex Mono with ligatures.
@@ -161,7 +162,7 @@ This is the full configuration used in the screenshots:
 
 ```json
 {
-  "editor.fontFamily": "Hasklig", // Or Iosevka Expanded (both in screenshots)
+  "editor.fontFamily": "Hasklig", // Or Consolas (both in screenshots)
   "editor.fontSize": 16,
   "editor.fontWeight": "500",
   "workbench.colorTheme": "Kintsugi Dark Flared",
