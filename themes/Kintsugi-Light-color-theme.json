@@ -296,8 +296,7 @@
       "name": "Comment",
       "scope": ["comment", "string.comment"],
       "settings": {
-        "foreground": "#938E83",
-        "fontStyle": "italic"
+        "foreground": "#938E83"
       }
     },
     {

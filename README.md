@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/icon-large-rounded.png" width="256" alt="Kintsugi Icon">
+  <img src="./assets/icon-large-rounded.png" width="256" alt="Kintsugi theme logo featuring a minimalist gold-accented design">
   <h1>Kintsugi</h1>
   <p>A sophisticated dark theme for the discerning developer, lovingly inspired by Japanese philosophy and minimalist aesthetics.</p>
 </div>
@@ -13,152 +13,105 @@
 
 ---
 
-## The Philosophy
+### Why Kintsugi?
 
-**Kintsugi (金継ぎ)**, the Japanese art of repairing broken pottery with gold-dusted lacquer, celebrates imperfections as part of an object's unique history. Inspired by this philosophy, the Kintsugi theme transforms your coding workspace into a serene, focused environment where code is the masterpiece. Warm, earthy tones and golden accents guide your eye without distraction, creating a harmonious and professional coding experience.
+This theme is inspired by **Kintsugi (金継ぎ)**, the Japanese art of repairing broken pottery with gold-dusted lacquer. It celebrates imperfections as part of an object's unique history. Kintsugi applies this philosophy to your workspace, creating a serene, focused environment where code is the masterpiece and the UI serves it with calm, beautiful utility.
 
-This is a theme for developers who see code as a craft.
+**This is a theme for developers who see code as a craft.**
 
-## Showcase
+---
 
-See Kintsugi in action with your favorite languages.
+## The Variants
 
-**Featured: TypeScript Project**
-![TypeScript Screenshot](./assets/typescript-project.png)
+Kintsugi offers two distinct, meticulously crafted variants to match your mood and focus. Both share the same seamless, minimalist UI, but offer a different syntax highlighting experience.
 
-|                     Rust                      |                     Java                      |
-| :-------------------------------------------: | :-------------------------------------------: |
-| ![Rust Screenshot](./assets/rust-snippet.png) | ![Java Screenshot](./assets/java-snippet.png) |
-|                     **C**                     |                    **Go**                     |
-|    ![C Screenshot](./assets/c-snippet.png)    |   ![Go Screenshot](./assets/go-snippet.png)   |
+### Kintsugi Dark (The Original)
 
-## Features
+_The original experience. A calm, minimalist palette with soft, desaturated colors and bold, gilded keywords. It is designed for absolute focus and clarity._
 
-- **Seamless UI:** A cohesive design that blends the active tab with the editor for a unified workspace.
-- **Focus-Oriented:** A harmonious palette that eliminates visual noise, keeping you in the flow.
-- **Artisanal Aesthetic:** Warm, earthy tones paired with subtle gold accents create a sophisticated environment.
-- **Meticulously Crafted Dark Theme:** Every color is carefully chosen for a cohesive, immersive experience.
-- **Rich Syntax Highlighting:** Clear, readable syntax colors that balance vibrancy and subtlety.
+![Kintsugi Dark Screenshot](./assets/showcase/typescript-project-original.png)
 
-## Recommended Setup (For the Full Experience)
+### Kintsugi Dark Flared
 
-Kintsugi is designed to be a complete experience. To replicate the exact aesthetic from the screenshots, I recommend the following fonts, icons, and settings.
+_The warm variant. A vibrant, cozy palette inspired by autumn and campfires. It features rich oranges, terracotta, and deep golds, creating an expressive and comfortable environment for long coding sessions._
 
-### I. The Font
+![Kintsugi Dark Flared Screenshot](./assets/showcase/typescript-project-flared.png)
 
-The screenshots feature [**M PLUS Code Latin Expanded**](https://mplusfonts.github.io/) for its clean, modern, and highly legible letterforms. However, Kintsugi also pairs beautifully with other developer-focused fonts.
+---
 
-**To use M PLUS Code Latin (as seen in screenshots):**
+## Language Showcase
 
-```json
-{
-  "editor.fontFamily": "M PLUS Code Latin Expanded",
-  "editor.fontLigatures": false,
-  "editor.fontSize": 16,
-  "editor.fontWeight": "400"
-}
-```
+See how Kintsugi's syntax brings clarity and elegance to your favorite languages.
 
-<details>
-  <summary><strong>Click here for other excellent font recommendations</strong></summary>
+### Kintsugi Dark
 
-- **[Lilex](https://github.com/mishamyrt/Lilex)**: An extended IBM Plex Mono with ligatures.
-- **[JetBrains Mono](https://www.jetbrains.com/lp/mono/)**: A popular font designed for developers.
-- **[Hack](https://github.com/gaplo917/Ligatured-Hack)**: A versatile monospaced font with optional ligatures.
-- **[Fira Code](https://github.com/tonsky/FiraCode)**: A classic choice with extensive ligature support.
+|                              Rust                               |                              Java                               |
+| :-------------------------------------------------------------: | :-------------------------------------------------------------: |
+| ![Rust Screenshot](./assets/showcase/rust-snippet-original.png) | ![Java Screenshot](./assets/showcase/rust-snippet-original.png) |
+|                              **C**                              |                             **Go**                              |
+|  ![C Screenshot](./assets/showcase/rust-snippet-original.png)   |  ![Go Screenshot](./assets/showcase/rust-snippet-original.png)  |
 
-</details>
+### Kintsugi Dark Flared
 
-### II. The Icons
+|                                 Rust                                 |                                 Java                                 |
+| :------------------------------------------------------------------: | :------------------------------------------------------------------: |
+| ![Flared Rust Screenshot](./assets/showcase/rust-snippet-flared.png) | ![Flared Java Screenshot](./assets/showcase/java-snippet-flared.png) |
+|                                **C**                                 |                                **Go**                                |
+|    ![Flared C Screenshot](./assets/showcase/c-snippet-flared.png)    |   ![Flared Go Screenshot](./assets/showcase/go-snippet-flared.png)   |
 
-A minimalist icon set is crucial for maintaining a focused workspace.
+---
 
-- **File Icons:**
-  - [**Quill Icons**](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons) (Minimalist, as seen in screenshots)
-  - [**Bearded Icons**](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons) (Vibrant alternative)
-- **Product Icons:**
-  - [**JetBrains Product Icon Theme**](https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme) (Clean, unified UI icons)
+## How to Get the Look from the Screenshots
 
-### III. The Settings
+To replicate the exact, polished aesthetic from the showcase, follow these three steps.
 
-These are the most impactful settings to enable Kintsugi's minimalist UI features.
+### Step 1: Theme, Font & Icons (The Foundation)
+
+First, install the core components.
+
+1.  **Install Kintsugi Theme:** Install the theme from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi).
+2.  **Install the Font:** Download and install [**Hasklig**](https://github.com/i-tu/Hasklig), the free font used for the editor.
+3.  **Install the Icons:**
+    - File Icons: [**Quill Icons**](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons) (minimalist, as seen in screenshots)
+    - Product Icons: [**JetBrains Product Icon Theme**](https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme) (clean, unified UI icons)
+
+### Step 2: The Core Settings
+
+Next, paste these settings into your `settings.json` (`Code > Preferences > Settings > Open Settings (JSON)`). These enable the seamless UI and minimalist features of the theme.
 
 ```json
 {
-  // These settings are essential for the clean, focused look.
-  "editor.renderLineHighlight": "none",
-  "editor.overviewRulerBorder": false,
-  "editor.minimap.enabled": false,
-  "editor.guides.bracketPairs": false,
-  "editor.bracketPairColorization.enabled": false,
-  "window.commandCenter": false,
-  "workbench.editor.empty.hint": "hidden",
-  "breadcrumbs.enabled": true // designed to make breadcrumbs seamless!
-}
-```
-
-<details>
-  <summary><strong>Click here for the complete settings.json from the screenshots</strong></summary>
-
-```json
-{
-  "editor.fontWeight": "400",
-  "editor.fontSize": 16,
-  "editor.fontLigatures": false,
-  "editor.fontFamily": "M PLUS Code Latin Expanded",
-  "editor.renderLineHighlight": "none",
-  "editor.wordWrap": "on",
-  "editor.wrappingIndent": "indent",
-  "editor.overviewRulerBorder": false,
-  "editor.semanticHighlighting.enabled": "configuredByTheme",
-  "editor.cursorStyle": "line",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "solid",
-  "editor.accessibilitySupport": "off",
-  "editor.inlayHints.enabled": "offUnlessPressed",
-  "editor.suggestSelection": "first",
-  "editor.bracketPairColorization.enabled": false,
-  "editor.guides.bracketPairs": false,
-  "editor.smoothScrolling": true,
-  "editor.minimap.enabled": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.tabSize": 4,
-  "editor.insertSpaces": true,
-  "editor.renderWhitespace": "selection",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.lineNumbers": "on",
-  "editor.stickyScroll.enabled": false,
-  "editor.linkedEditing": true,
-  "editor.padding.top": 5,
-  "editor.rulers":,
-  "window.commandCenter": false,
-  "window.zoomLevel": 1,
-  "window.density.editorTabHeight": "compact",
-  "workbench.editor.tabSizing": "fit",
-  "workbench.editor.showTabs": "multiple",
-  "workbench.tree.indent": 20,
-  "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Kintsugi Dark",
   "workbench.iconTheme": "quill-icons",
+  "workbench.productIconTheme": "jetbrains-product-icon-theme",
+  "editor.fontFamily": "Hasklig", // Or Iosevka Expanded (both in screenshots)
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
+  "window.zoomLevel": 2,
+
+  // Essential for the clean, minimalist look
+  "editor.padding.top": 5,
+  "window.commandCenter": false,
   "workbench.editor.empty.hint": "hidden",
-  "breadcrumbs.enabled": true
+  "workbench.tree.indent": 20,
+  "window.density.editorTabHeight": "compact",
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.enabled": false
 }
 ```
 
-</details>
+### Step 3: The Final Polish (Advanced Customization)
 
-### IV. Advanced UI Customization (To Match Screenshots Exactly)
+This step is **required** to achieve the exact look from the screenshots. It uses the [**Custom UI Style**](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style) extension to apply two key refinements:
 
-For the final polish seen in the screenshots—specifically the **custom UI font** and a **more refined keyword boldness**—you will need the [**Custom UI Style**](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style) extension.
-
-This setup makes two significant changes:
-
-1.  **It changes the entire UI font** (File Explorer, Sidebars, etc.) to the beautiful **Sometype Mono**. You will need to download and install [**Sometype Mono**](https://monospacedfont.com/) for this to work.
-2.  **It refines the boldness of keywords.** Your theme already makes keywords bold, but this CSS overrides VS Code's default heavy `font-weight` (often 700) with a more subtle `600`. This gives the text a softer, semi-bold appearance that is less jarring and more elegant.
+1. Changes the UI font (File Explorer, menus, etc.) to [**Sometype Mono**](https://monospacedfont.com/). You must download and install this font.
+2. Refines keyword boldness with a subtle `font-weight` for a softer, elegant appearance.
 
 <details>
-  <summary><strong>Click here for advanced CSS customizations</strong></summary>
+  <summary><strong>Click to see the advanced CSS settings</strong></summary>
+
+Add the following to your `settings.json`:
 
 ```json
 {
@@ -171,24 +124,122 @@ This setup makes two significant changes:
       "justify-content": "space-between"
     },
     ".mtkb": {
-      "font-weight": "600 !important"
+      "font-weight": "700 !important"
     }
   }
 }
 ```
 
+**For vibrant icon packs:** To align colorful icons (e.g., Bearded Icons) with Kintsugi's minimalist palette, add this to the `custom-ui-style.stylesheet`:
+
+```json
+".monaco-icon-label:before": {
+  "filter": "grayscale(1) brightness(0.7) !important"
+}
+```
+
 </details>
+
+---
+
+## Further Customization Options
+
+<details>
+  <summary><strong>Alternative Font Recommendations</strong></summary>
+
+- **[Iosevka](https://typeof.net/Iosevka/)**: A highly customizable, monospaced font with a sleek, modern design and extensive ligature support.
+- **[M PLUS Code Latin Expanded](https://mplusfonts.github.io/)**: A clean, modern, monospaced font with excellent legibility.
+- **[Lilex](https://github.com/mishamyrt/Lilex)**: An extended IBM Plex Mono with ligatures.
+- **[JetBrains Mono](https://www.jetbrains.com/lp/mono/)**: A popular font designed for developers.
+
+</details>
+
+<details>
+  <summary><strong>Complete `settings.json` from the Screenshots</strong></summary>
+
+This is the full configuration used in the screenshots:
+
+```json
+{
+  "editor.fontFamily": "Hasklig", // Or Iosevka Expanded (both in screenshots)
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
+  "workbench.colorTheme": "Kintsugi Dark Flared",
+  "workbench.iconTheme": "quill-icons",
+  "workbench.productIconTheme": "jetbrains-product-icon-theme",
+  "window.zoomLevel": 2,
+  "editor.padding.top": 5,
+  "window.commandCenter": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.tree.indent": 20,
+  "window.density.editorTabHeight": "compact",
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.overviewRulerBorder": false,
+  "editor.guides.bracketPairs": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "indent",
+  "editor.cursorBlinking": "solid",
+  "editor.accessibilitySupport": "off",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "selection",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.activityBar.location": "top",
+  "editor.cursorSurroundingLines": 1000,
+  "editor.rulers": [80, 100, 120]
+}
+```
+
+</details>
+
+<details>
+  <summary><strong>Optional Zen Mode Configuration</strong></summary>
+
+For a minimalist, distraction-free experience, add these settings to your `settings.json`:
+
+```json
+{
+  "workbench.statusBar.visible": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.activityBar.location": "hidden",
+  "editor.lineNumbers": "off",
+  "editor.glyphMargin": false
+}
+```
+
+</details>
+
+---
+
+## Issues & Contributing
+
+Found a bug or have a suggestion? Please [open an issue](https://github.com/ahmedhatem/vscode-kintsugi/issues) on GitHub. Contributions and feedback are welcome to make Kintsugi even better.
+
+This project is a labor of love, and I’m excited to see how the community shapes it.
 
 ## Installation
 
-1.  Open the **Extensions** sidebar in VS Code (`View → Extensions`).
-2.  Search for `Kintsugi`.
-3.  Click **Install**.
-4.  Go to `Code > Preferences > Color Theme` and select **Kintsugi Dark**.
+1. Open the **Extensions** sidebar in VS Code (`View > Extensions`).
+2. Search for `Kintsugi`.
+3. Click **Install**.
+4. Go to `Code > Preferences > Color Theme` and select **Kintsugi Dark** or **Kintsugi Dark Flared**.
 
 ## Acknowledgements
 
-Kintsugi was inspired by and built upon [Owokai by toiletbril](https://github.com/toiletbril/Owokai). Its structure served as a foundation, evolving into the unique Kintsugi experience.
+Kintsugi was built with inspiration from exceptional themes:
+
+- **Kintsugi Dark**: Inspired by [**Owokai** by toiletbril](https://github.com/toiletbril/Owokai).
+- **Kintsugi Dark Flared**: Draws from the vibrant syntax of [**Flare Theme** by Pyxel](https://marketplace.visualstudio.com/items?itemName=pyxel.flare-theme).
 
 ---
 

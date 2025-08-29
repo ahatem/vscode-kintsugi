@@ -23,6 +23,7 @@ public final class DataProcessor {
 
     @Override
     public String toString() {
+        // Example representation of the instance
         return "Processor instance created at: " + creationTimestamp;
     }
 }
