@@ -2,7 +2,7 @@
   "name": "kintsugi",
   "displayName": "Kintsugi",
   "description": "A sophisticated dark theme for the discerning developer, inspired by the Japanese art of Kintsugi.",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "license": "MIT",
   "publisher": "ahmedhatem",
   "author": {
@@ -38,6 +38,11 @@
         "label": "Kintsugi Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Kintsugi-Dark-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Dark Flared",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kintsugi-Dark-Flared-color-theme.json"
       }
     ]
   }

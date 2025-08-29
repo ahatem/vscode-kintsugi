@@ -2,3 +2,5 @@ node_modules
 *.vsix
 .env
 TODO.txt
+Contribution.md
+README-PLAYGROUND.md

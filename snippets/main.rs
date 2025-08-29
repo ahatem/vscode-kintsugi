@@ -1,21 +1,36 @@
-pub enum Shape {
-    Circle(f64),
-    Rectangle { width: f64, height: f64 },
+use std::io;
+
+struct Counter {
+    count: i32,
 }
 
-impl Shape {
-    // Calculate the area using pattern matching.
-    pub fn area(&self) -> f64 {
-        const PI: f64 = 3.1415926535;
+impl Counter {
+    fn new() -> Self {
+        Counter { count: 0 }
+    }
 
-        match *self {
-            Shape::Circle(radius) => PI * radius * radius,
-            Shape::Rectangle { width, height } => width * height,
-        }
+    fn inc(&mut self) {
+        self.count += 1;
+        println!("Count: {}", self.count);
+    }
+
+    fn reset(&mut self) {
+        self.count = 0;
+        println!("Reset to 0");
     }
 }
 
-fn main() {
-    let my_shape = Shape::Circle(10.0);
-    println!("The area is: {:.2}", my_shape.area());
+fn main() -> io::Result<()> {
+    let mut counter = Counter::new();
+    loop {
+        let mut input = String::new();
+        io::stdin().read_line(&mut input)?;
+        match input.trim() {
+            "inc" => counter.inc(),
+            "reset" => counter.reset(),
+            "exit" => break,
+            _ => println!("Use: inc, reset, or exit"),
+        }
+    }
+    Ok(())
 }
