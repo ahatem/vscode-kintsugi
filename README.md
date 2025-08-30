@@ -97,6 +97,7 @@ Next, paste these settings into your `settings.json` (`Code > Preferences > Sett
   "workbench.tree.indent": 20,
   "window.density.editorTabHeight": "compact",
   "workbench.layoutControl.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false
 }
 ```
@@ -168,6 +169,7 @@ This is the full configuration used in the screenshots:
   "workbench.colorTheme": "Kintsugi Dark Flared",
   "workbench.iconTheme": "quill-icons",
   "workbench.productIconTheme": "jetbrains-product-icon-theme",
+  "editor.cursorSmoothCaretAnimation": "on",
   "window.zoomLevel": 2,
   "editor.padding.top": 5,
   "window.commandCenter": false,

@@ -1,3 +1,5 @@
+package showcase;
+
 public final class DataProcessor {
 
     private static volatile DataProcessor instance;

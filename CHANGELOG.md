@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [0.1.1] - YYYY-MM-DD
+
+### Fixed
+
+- **Theme Logic:** Corrected and simplified several `tokenColors` rules in the `Flared` variant to improve consistency and maintainability.
+- **File Organization:** Moved files in `snippets` to `snippets/showcase` and added `snippets/syntax` to easily test syntax highlighting
+
+### Changed
+
+- **Documentation:** Updated the `README.md` to recommend `editor.cursorSmoothCaretAnimation` for a more polished user experience.
+
 ## [0.1.0] - YYYY-MM-DD
 
 ### Added
