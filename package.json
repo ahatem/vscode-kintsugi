@@ -2,7 +2,7 @@
   "name": "kintsugi",
   "displayName": "Kintsugi",
   "description": "A sophisticated dark theme for the discerning developer, inspired by the Japanese art of Kintsugi.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "publisher": "ahmedhatem",
   "author": {
@@ -27,10 +27,26 @@
     "minimalist",
     "clean",
     "focus",
-    "warm",
+    "zen",
+    "elegant",
+    "soft",
+    "calm",
+    "aesthetic",
+    "professional",
+    "low contrast",
     "gold",
-    "japanese",
-    "zen"
+    "warm",
+    "brown",
+    "sand",
+    "beige",
+    "charcoal",
+    "flared",
+    "orange",
+    "terracotta",
+    "cozy",
+    "autumn",
+    "monokai",
+    "gruvbox"
   ],
   "contributes": {
     "themes": [
