@@ -70,7 +70,7 @@ To replicate the exact, polished aesthetic from the showcase, follow these three
 First, install the core components.
 
 1.  **Install Kintsugi Theme:** Install the theme from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi).
-2.  **Install the Font:** Download and install [**Hasklig**](https://github.com/i-tu/Hasklig), the free font used for the editor.
+2.  **Install the Font:** Download and install [**IoskeleyMono**](https://github.com/ahatem/IoskeleyMono), the free font designed to perfectly complement this theme.
 3.  **Install the Icons:**
     - File Icons: [**Quill Icons**](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons) (minimalist, as seen in screenshots)
     - Product Icons: [**JetBrains Product Icon Theme**](https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme) (clean, unified UI icons)
@@ -84,7 +84,7 @@ Next, paste these settings into your `settings.json` (`Code > Preferences > Sett
   "workbench.colorTheme": "Kintsugi Dark",
   "workbench.iconTheme": "quill-icons",
   "workbench.productIconTheme": "jetbrains-product-icon-theme",
-  "editor.fontFamily": "Hasklig", // Or Consolas (both in screenshots)
+  "editor.fontFamily": "Ioskeley Mono", // Or Hasklig, Consolas (as in screenshots)
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.fontWeight": "500",
@@ -148,11 +148,12 @@ Add the following to your `settings.json`:
 <details>
   <summary><strong>Alternative Font Recommendations</strong></summary>
 
+- **[Hasklig](https://github.com/i-tu/Hasklig)**: A popular typeface based on Source Code Pro with custom ligatures.
 - **[Consolas](https://github.com/somq/consolas-ligaturized)**: A classic monospaced font with ligatures for enhanced coding aesthetics.
-- **[Iosevka](https://typeof.net/Iosevka/)**: A highly customizable, monospaced font with a sleek, modern design and extensive ligature support.
-- **[M PLUS Code Latin Expanded](https://mplusfonts.github.io/)**: A clean, modern, monospaced font with excellent legibility.
 - **[Lilex](https://github.com/mishamyrt/Lilex)**: An extended IBM Plex Mono with ligatures.
 - **[JetBrains Mono](https://www.jetbrains.com/lp/mono/)**: A popular font designed for developers.
+- **[M PLUS Code Latin Expanded](https://mplusfonts.github.io/)**: A clean, modern, monospaced font with excellent legibility.
+- **[Iosevka](https://typeof.net/Iosevka/)**: A highly customizable, monospaced font with a sleek, modern design and extensive ligature support.
 
 </details>
 
@@ -163,7 +164,7 @@ This is the full configuration used in the screenshots:
 
 ```json
 {
-  "editor.fontFamily": "Hasklig", // Or Consolas (both in screenshots)
+  "editor.fontFamily": "Ioskeley Mono", // Or Hasklig, Consolas (as in screenshots)
   "editor.fontSize": 16,
   "editor.fontWeight": "500",
   "workbench.colorTheme": "Kintsugi Dark Flared",
