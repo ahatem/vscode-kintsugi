@@ -47,9 +47,9 @@ See how Kintsugi's syntax brings clarity and elegance to your favorite languages
 
 |                              Rust                               |                              Java                               |
 | :-------------------------------------------------------------: | :-------------------------------------------------------------: |
-| ![Rust Screenshot](./assets/showcase/rust-snippet-original.png) | ![Java Screenshot](./assets/showcase/rust-snippet-original.png) |
+| ![Rust Screenshot](./assets/showcase/rust-snippet-original.png) | ![Java Screenshot](./assets/showcase/java-snippet-original.png) |
 |                              **C**                              |                             **Go**                              |
-|  ![C Screenshot](./assets/showcase/rust-snippet-original.png)   |  ![Go Screenshot](./assets/showcase/rust-snippet-original.png)  |
+|    ![C Screenshot](./assets/showcase/c-snippet-original.png)    |   ![Go Screenshot](./assets/showcase/go-snippet-original.png)   |
 
 ### Kintsugi Dark Flared
 
