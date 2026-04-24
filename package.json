@@ -1,8 +1,8 @@
 {
   "name": "kintsugi",
   "displayName": "Kintsugi",
-  "description": "A sophisticated dark theme for the discerning developer, inspired by the Japanese art of Kintsugi.",
-  "version": "0.1.1",
+  "description": "A sophisticated theme for the discerning developer, inspired by the Japanese art of Kintsugi. Available in dark and light variants.",
+  "version": "0.2.0",
   "license": "MIT",
   "publisher": "ahmedhatem",
   "author": {
@@ -22,6 +22,7 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "kintsugi",
     "minimal",
     "minimalist",
@@ -46,7 +47,11 @@
     "cozy",
     "autumn",
     "monokai",
-    "gruvbox"
+    "gruvbox",
+    "washi",
+    "ivory",
+    "japanese",
+    "ceramic"
   ],
   "contributes": {
     "themes": [
@@ -59,6 +64,16 @@
         "label": "Kintsugi Dark Flared",
         "uiTheme": "vs-dark",
         "path": "./themes/Kintsugi-Dark-Flared-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Light",
+        "uiTheme": "vs",
+        "path": "./themes/Kintsugi-Light-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Light Flared",
+        "uiTheme": "vs",
+        "path": "./themes/Kintsugi-Light-Flared-color-theme.json"
       }
     ]
   }
