@@ -113,7 +113,7 @@
     "editorUnnecessaryCode.opacity": "#000000aa",
     "editorWarning.border": "#8b8b6b50",
     "editorWarning.foreground": "#ebcb8b",
-    "editorWhitespace.foreground": "#464741aa",
+    "editorWhitespace.foreground": "#47454150",
     "editorWidget.background": "#151515",
     "editorWidget.border": "#2a2a28",
     "editorWidget.foreground": "#c9c4b8",
@@ -508,7 +508,11 @@
     },
     {
       "name": "Generic Types (Containers)",
-      "scope": ["storage.type.generic", "entity.name.type.template.cpp"],
+      "scope": [
+        "storage.type.generic",
+        "entity.name.type.template.cpp",
+        "meta.type.annotation.ts meta.type.parameters.ts entity.name.type.ts"
+      ],
       "settings": {
         "foreground": "#E08542",
         "fontStyle": ""
@@ -518,7 +522,6 @@
       "name": "Compiler Metadata & Attributes (Annotations, Lifetimes, Decorators)",
       "scope": [
         "storage.type.annotation.java",
-        "meta.type.annotation.ts",
 
         "entity.name.type.lifetime",
         "punctuation.definition.lifetime",
