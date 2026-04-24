@@ -6,8 +6,9 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/ahmedhatem.kintsugi?style=for-the-badge&label=Version&color=AF8333)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/ahmedhatem.kintsugi?style=for-the-badge&label=Installs&color=D4A943)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
+[![Version](https://badgen.net/vs-marketplace/v/ahmedhatem.kintsugi?color=AF8333&icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
+[![Installs](https://badgen.net/vs-marketplace/i/ahmedhatem.kintsugi?color=D4A943)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
+[![Rating](https://badgen.net/vs-marketplace/rating/ahmedhatem.kintsugi?color=C5973B)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
 
 </div>
 
