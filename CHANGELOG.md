@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-08-16
+
+### Fixed
+
+- **Syntax colours now meet WCAG contrast against the background they are drawn on.** 48 tokens across the eight themes sat below the readable floor, and they failed in the way a light palette derived from a dark one always does: mid-tone accents keep their hue but lose their separation, because they were chosen against near-black and are now on cream. The signature gold keyword was at 3.76 against a floor of 4.5 — the colour the theme is named for was the least readable thing in it.
+- Thirteen colours adjusted, each the smallest hue-preserving move that clears its floor, computed in HSL so a gold stays gold rather than drifting toward brown. Comments are held to 3.0 rather than 4.5, since they are meant to recede.
+- Only `tokenColors` changed. The same values appear in the workbench colours, where they sit on different backgrounds and were already fine.
+
+### Added
+
+- `tools/contrast.mjs` reports the ratio of every syntax colour against its background, and `tools/suggest-contrast.mjs` proposes fixes. Contrast is measurable, so this stops being a matter of taste.
+
 ## [0.3.0] - 2026-08-16
 
 ### Added

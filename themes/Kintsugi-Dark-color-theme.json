@@ -424,7 +424,7 @@
       "name": "Diff: Header",
       "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
-        "foreground": "#75715E"
+        "foreground": "#85806a"
       }
     },
     {

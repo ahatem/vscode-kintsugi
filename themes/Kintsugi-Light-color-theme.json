@@ -370,7 +370,7 @@
         "variable.language.this"
       ],
       "settings": {
-        "foreground": "#9a7820",
+        "foreground": "#87691c",
         "fontStyle": "bold"
       }
     },
@@ -391,7 +391,7 @@
       "name": "Java Annotation",
       "scope": ["storage.type.annotation.java"],
       "settings": {
-        "foreground": "#487870",
+        "foreground": "#47766f",
         "fontStyle": ""
       }
     },
@@ -424,7 +424,7 @@
       "name": "Diff: Header",
       "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
-        "foreground": "#8a8878"
+        "foreground": "#706f61"
       }
     },
     {
@@ -445,14 +445,14 @@
       "name": "Diff: Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#9a7820"
+        "foreground": "#87691c"
       }
     },
     {
       "name": "Find in Files: Filename",
       "scope": "entity.name.filename.find-in-files",
       "settings": {
-        "foreground": "#9a7820"
+        "foreground": "#87691c"
       }
     },
     {
@@ -480,7 +480,7 @@
       "name": "Punctuation",
       "scope": "punctuation, delimiter, bracket, brace, paren, delimiter.tag, punctuation.tag, tag.html, tag.xml, meta.property-value punctuation.separator.key-value, punctuation.definition.metadata.md, string.link.md, meta.brace",
       "settings": {
-        "foreground": "#8a8468"
+        "foreground": "#746f58"
       }
     }
   ],

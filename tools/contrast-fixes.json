@@ -1,0 +1,17 @@
+{
+  "_comment": "Syntax colours raised to meet WCAG contrast against the editor background, computed by tools/suggest-contrast.mjs. Each is the smallest hue-preserving move that clears its floor: 4.5 for code, 3.0 for comments, which are meant to recede. Applied to tokenColors only — the same hex often appears in the workbench colours too, where it sits on a different background and is fine. Re-run tools/contrast.mjs after any change here.",
+
+  "#487870": "#47766f",
+  "#5a8a40": "#4f7938",
+  "#5f5f5f": "#636363",
+  "#75715e": "#85806a",
+  "#7f7b66": "#85806b",
+  "#8a8468": "#746f58",
+  "#8a8878": "#706f61",
+  "#928e84": "#726e65",
+  "#9a7820": "#87691c",
+  "#a4a09a": "#8f8b83",
+  "#a87820": "#90671c",
+  "#b86820": "#a45d1d",
+  "#b87040": "#9c5f36"
+}

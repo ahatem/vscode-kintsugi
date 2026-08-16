@@ -333,7 +333,7 @@
         "punctuation.comment"
       ],
       "settings": {
-        "foreground": "#5f5f5f"
+        "foreground": "#636363"
       }
     },
     {
@@ -357,7 +357,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#7f7b66"
+        "foreground": "#85806b"
       }
     },
     {
@@ -581,7 +581,7 @@
         "meta.diff.header"
       ],
       "settings": {
-        "foreground": "#75715E"
+        "foreground": "#85806a"
       }
     },
     {
