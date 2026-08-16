@@ -24,7 +24,19 @@ This theme is inspired by **Kintsugi (金継ぎ)**, the Japanese art of repairin
 
 ## The Variants
 
-Kintsugi offers two distinct, meticulously crafted variants to match your mood and focus. Both share the same seamless, minimalist UI, but offer a different syntax highlighting experience.
+Eight themes, built from two independent choices: **how the code is coloured**, and **how the room around it is coloured**.
+
+|  | Neutral interface | Clay interface |
+| --- | --- | --- |
+| **Original syntax** | Kintsugi Dark · Kintsugi Light | Kintsugi Dark Clay · Kintsugi Light Clay |
+| **Flared syntax** | Kintsugi Dark Flared · Kintsugi Light Flared | Kintsugi Dark Clay Flared · Kintsugi Light Clay Flared |
+
+The two axes never interfere with one another, and that is the point:
+
+- **Flared** changes only the syntax — vibrant oranges, terracotta and deep gold in place of the original's gilded calm. The interface stays exactly where it was.
+- **Clay** changes only the interface — bronze and parchment in place of neutral grey, a deeper earthen ground in the dark and warm parchment in the light. The syntax is identical to its namesake's, down to the last token.
+
+So you can change how your code reads without the editor moving, or change the room without your code shifting under you.
 
 ### Kintsugi Dark (The Original)
 
@@ -223,6 +235,14 @@ For a minimalist, distraction-free experience, add these settings to your `setti
 ```
 
 </details>
+
+---
+
+## Support
+
+If Kintsugi makes your daily coding sessions a little more beautiful, a coffee means a lot!
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ahmedhatem-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/ahmedhatem)
 
 ---
 

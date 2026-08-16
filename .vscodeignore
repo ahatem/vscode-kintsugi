@@ -2,3 +2,7 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+tools/**
+TODO.txt
+Contribution.md
+README-PLAYGROUND.md

@@ -1,8 +1,8 @@
 {
   "name": "kintsugi",
   "displayName": "Kintsugi",
-  "description": "A sophisticated theme for the discerning developer, inspired by the Japanese art of Kintsugi. Available in dark and light variants.",
-  "version": "0.2.1",
+  "description": "A sophisticated theme for the discerning developer, inspired by the Japanese art of Kintsugi. Eight variants: dark and light, each with a Flared syntax twin and a Clay interface twin.",
+  "version": "0.3.0",
   "license": "MIT",
   "publisher": "ahmedhatem",
   "author": {
@@ -51,7 +51,10 @@
     "washi",
     "ivory",
     "japanese",
-    "ceramic"
+    "ceramic",
+    "clay",
+    "parchment",
+    "bronze"
   ],
   "contributes": {
     "themes": [
@@ -74,6 +77,26 @@
         "label": "Kintsugi Light Flared",
         "uiTheme": "vs",
         "path": "./themes/Kintsugi-Light-Flared-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Dark Clay",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kintsugi-Dark-Clay-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Dark Clay Flared",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kintsugi-Dark-Clay-Flared-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Light Clay",
+        "uiTheme": "vs",
+        "path": "./themes/Kintsugi-Light-Clay-color-theme.json"
+      },
+      {
+        "label": "Kintsugi Light Clay Flared",
+        "uiTheme": "vs",
+        "path": "./themes/Kintsugi-Light-Clay-Flared-color-theme.json"
       }
     ]
   }
