@@ -5,3 +5,5 @@ TODO.txt
 Contribution.md
 README-PLAYGROUND.md
 .vscode
+# Internal tooling — generators and contrast checks. Kept local, never published.
+tools/
