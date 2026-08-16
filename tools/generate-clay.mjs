@@ -26,6 +26,53 @@ const { dark: DARK, light: LIGHT } = JSON.parse(
 );
 
 /**
+ * Parses a VS Code theme file, which is JSONC rather than JSON.
+ *
+ * The base themes carry `//` comments — VS Code accepts them, `JSON.parse` does not. Stripping
+ * them needs to respect string literals, or a `//` inside a URL or a scope selector would take the
+ * rest of the line with it and produce something that still parses but has lost a property.
+ */
+function parseJsonc(text) {
+  let out = '';
+  let inString = false;
+  let escaped = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    const next = text[i + 1];
+
+    if (inString) {
+      out += ch;
+      if (escaped) escaped = false;
+      else if (ch === '\\') escaped = true;
+      else if (ch === '"') inString = false;
+      continue;
+    }
+
+    if (ch === '"') {
+      inString = true;
+      out += ch;
+      continue;
+    }
+    if (ch === '/' && next === '/') {
+      while (i < text.length && text[i] !== '\n') i++;
+      out += '\n';
+      continue;
+    }
+    if (ch === '/' && next === '*') {
+      i += 2;
+      while (i < text.length && !(text[i] === '*' && text[i + 1] === '/')) i++;
+      i++;
+      continue;
+    }
+    out += ch;
+  }
+
+  // Trailing commas are legal in JSONC and are what a stripped comment can leave behind.
+  return JSON.parse(out.replace(/,(\s*[}\]])/g, '$1'));
+}
+
+/**
  * Rewrites one colour, preserving any alpha suffix.
  *
  * Values here are frequently `#rrggbbaa`. Matching eight digits against a six-digit key would miss
@@ -41,7 +88,7 @@ function remap(value, map) {
 }
 
 function buildClay({ from, to, label, map }) {
-  const source = JSON.parse(readFileSync(join(themesDir, from), 'utf8'));
+  const source = parseJsonc(readFileSync(join(themesDir, from), "utf8"));
   const theme = JSON.parse(JSON.stringify(source));
 
   theme.name = label;
