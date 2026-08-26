@@ -9,6 +9,7 @@
 [![Version](https://badgen.net/vs-marketplace/v/ahmedhatem.kintsugi?color=AF8333&icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
 [![Installs](https://badgen.net/vs-marketplace/i/ahmedhatem.kintsugi?color=D4A943)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
 [![Rating](https://badgen.net/vs-marketplace/rating/ahmedhatem.kintsugi?color=C5973B)](https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi)
+[![Support](https://img.shields.io/badge/support-Buy%20Me%20a%20Coffee-D4A943?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/ahmedhatem)
 
 </div>
 
@@ -240,7 +241,7 @@ For a minimalist, distraction-free experience, add these settings to your `setti
 
 ## Support
 
-If Kintsugi makes your daily coding sessions a little more beautiful, a coffee means a lot!
+Kintsugi is free to use. If it makes your daily coding sessions a little better, support helps with maintenance, compatibility fixes, and new releases.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ahmedhatem-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/ahmedhatem)
 
