@@ -19,6 +19,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Normalize VS Code JSONC source for strict parser
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for path in Path('themes').glob('*-color-theme.json'):
+              text = path.read_text(encoding='utf-8')
+              text = text.replace('false // TODO: Maybe in feature', 'false')
+              path.write_text(text, encoding='utf-8')
+          PY
       - name: Install validation dependency
         run: python -m pip install --disable-pip-version-check jsonschema
       - name: Generate and validate all Zed themes
