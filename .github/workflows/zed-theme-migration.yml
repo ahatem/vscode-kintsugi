@@ -1,0 +1,31 @@
+name: Zed Theme Migration
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - automation/zed-theme-migration
+    paths:
+      - 'themes/**'
+      - 'package.json'
+      - 'scripts/migrate_to_zed.py'
+      - '.github/workflows/zed-theme-migration.yml'
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependency
+        run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Generate and validate all Zed themes
+        run: python scripts/migrate_to_zed.py --validate-schema
+      - name: Upload generated theme set
+        uses: actions/upload-artifact@v4
+        with:
+          name: kintsugi-zed-themes
+          path: dist/kintsugi-zed
+          if-no-files-found: error
